@@ -1,0 +1,15 @@
+{
+  "name": "custom_property_definer",
+  "version": "1.0.2",
+  "description": "Synthetic sugar for Object.defineProperty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sinutwentyone"
+  },
+  "author": "Sinu Twentyone",
+  "license": "MIT"
+}
