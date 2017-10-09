@@ -5,7 +5,7 @@ synthetic sugar for Object.defineProperty
 So i don't really like Object.defineProperty usage implementation. So i build this guy.
 
 ## USAGE
-####Native Object.defineProperty
+#### Native Object.defineProperty
 
 ```javascript
   var bValue = 38;
@@ -20,7 +20,7 @@ So i don't really like Object.defineProperty usage implementation. So i build th
 
 I don't really like where 'bValue' is placed outside the scope.
 
-####custom_property_definer
+#### custom_property_definer
 
 ```javascript
   var obj = {};
