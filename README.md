@@ -9,12 +9,14 @@ So i don't really like Object.defineProperty usage implementation. So i build th
 
 ```javascript
   var bValue = 38;
+  
   Object.defineProperty(o, 'b', {
     get: function() { return bValue; },
     set: function(newValue) { bValue = newValue; },
     enumerable: true,
     configurable: true
   });
+  
   o.b; // 38
 ```
 
