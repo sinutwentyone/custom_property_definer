@@ -1,8 +1,5 @@
 # custom_property_definer
-synthetic sugar for Object.defineProperty
-
-## I Was Facing This Problem
-So i don't really like Object.defineProperty usage implementation then i create this.
+synthetic sugar for Object.defineProperty. So i don't really like Object.defineProperty usage implementation then i create this.
 
 ## Installation
 
