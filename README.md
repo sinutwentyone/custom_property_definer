@@ -2,7 +2,13 @@
 synthetic sugar for Object.defineProperty
 
 ## I Was Facing This Problem
-So i don't really like Object.defineProperty usage implementation. So i build this guy.
+So i don't really like Object.defineProperty usage implementation then i create this.
+
+## Installation
+
+```javascript
+  npm install --save-dev custom_property_definer
+```
 
 ## USAGE
 #### Native Object.defineProperty
@@ -25,6 +31,8 @@ I don't really like where 'bValue' is placed outside the scope.
 #### custom_property_definer
 
 ```javascript
+  var customPropertyDefiner = require('custom_property_definer');
+  
   var obj = {};
   
   customPropertyDefiner( obj, 'b', {
