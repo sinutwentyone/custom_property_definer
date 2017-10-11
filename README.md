@@ -49,3 +49,44 @@ I don't really like where 'bValue' is placed outside the scope.
   obj.b; // 38
 ```
 
+### Syntax
+
+```javascript
+  var customPropertyDefiner = require('custom_property_definer');
+  
+  customPropertyDefiner( containerObj, propertyName, descriptor );
+```
+
+### Parameters
+
+#### containerObj
+types: Object
+
+The object on which to define the property.
+
+#### propertyName
+types: String
+
+Property name for the value.
+
+#### descriptor
+types: Object
+
+Object value descriptor
+
+##### properties
+
+**configurable**
+types: boolean
+---
+
+'true' if and only if the type of this property descriptor may be changed and if the property may be deleted from the corresponding object.
+
+Defaults: false
+
+
+
+
+
+
+
