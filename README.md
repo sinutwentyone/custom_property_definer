@@ -77,15 +77,41 @@ Object value descriptor
 ##### properties
 
 **configurable**
-types: boolean
 ---
+
+types: boolean
 
 'true' if and only if the type of this property descriptor may be changed and if the property may be deleted from the corresponding object.
 
 Defaults: false
 
+**initialValue**
+---
+
+types: function
+
+The returned value of the function will be taken as property initial value.
+
+Defaults: undefined
+
+**getter**
+--
+
+types: function
+
+getter function for property's value
+
+Defaults: function returning current value
 
 
+**setter**
+--
+
+types: function
+
+setter function for property's value
+
+Defaults: function asigning value to property
 
 
 
