@@ -76,6 +76,14 @@ Object value descriptor
 
 ##### properties
 
+**enumerable**
+---
+types: boolean
+
+true if and only if this property shows up during enumeration of the properties on the corresponding object.
+
+Defaults: false
+
 **configurable**
 ---
 
